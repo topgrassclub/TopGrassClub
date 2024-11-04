@@ -1,0 +1,33 @@
+{
+  "name": "tgc_blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/kucharskilukasz98/tgc_blockchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/kucharskilukasz98/tgc_blockchain/issues"
+  },
+  "homepage": "https://gitlab.com/kucharskilukasz98/tgc_blockchain#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.12",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "globals": "^15.11.0",
+    "hardhat": "^2.22.2",
+    "solidity-coverage": "^0.8.13"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.1",
+    "hardhat-ethers": "^1.0.1"
+  }
+}
